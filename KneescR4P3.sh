@@ -3,7 +3,7 @@
 
 echo "Detecting Ubuntu architecture."
 
-arch=$(uname -i)
+arch=$(arch)
 
 if [ "${arch}" = "x86_64" ]; then
         sudo wget http://dl.4players.de/ts/releases/3.1.6/TeamSpeak3-Client-linux_amd64-3.1.6.run
