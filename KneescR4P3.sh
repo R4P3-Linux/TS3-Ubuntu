@@ -1,7 +1,7 @@
 #!/bin/bash
-#Auto install TeamSpeak 3 on Ubuntu
+#Auto install TeamSpeak 3 on Ubuntu or Debian
 
-echo "Detecting Ubuntu architecture."
+echo "Detecting system architecture."
 
 arch=$(arch)
 
